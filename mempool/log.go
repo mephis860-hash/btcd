@@ -15,7 +15,7 @@ var log btclog.Logger
 
 // The default amount of logging is none.
 func init() {
-	DisableLog()
+	DisableLog()enable 
 }
 
 // DisableLog disables all library log output.  Logging output is disabled
